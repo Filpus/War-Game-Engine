@@ -10,4 +10,16 @@ public class Localizations {
     private ArrayList<City> cities;
     private ArrayList<Fort> forts;
     private ArrayList<Province> provinces;
+
+    public ArrayList<City> getCities() {
+        return cities;
+    }
+
+    public ArrayList<Fort> getForts() {
+        return forts;
+    }
+
+    public ArrayList<Province> getProvinces() {
+        return provinces;
+    }
 }
