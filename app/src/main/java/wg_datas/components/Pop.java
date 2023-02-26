@@ -102,6 +102,18 @@ public class Pop {
         return religion;
     }
 
+    public float getTaxation() {
+        return taxation;
+    }
+
+    public float getDraft() {
+        return draft;
+    }
+
+    public int getManpower() {
+        return manpower;
+    }
+
     public int getNumber() {
         return number;
     }
